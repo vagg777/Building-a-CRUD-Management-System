@@ -12,7 +12,7 @@
 * The applicatio was developed on Grails, using InteliJ as IDE, Groovy as programming language and a MySQL as RDBMS.
 * This is the final version ofor the Employee-Department CRUD Panels and User Login/Logout features.
 * Project Version : `3.0`
-* IDE Version : `InteliJ IDEA 2017.1.1 Trial Version`
+* IDE Version : `InteliJ IDEA 2017.1.1`
 * Grails Version : `2.5.6`
 * JDK Version : `1.7.0_11`
 * SQL Version : `MySQL RDBMS`
