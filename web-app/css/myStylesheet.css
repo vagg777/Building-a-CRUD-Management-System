@@ -1,0 +1,156 @@
+/* Display our site background image */
+body {
+    background: url("../images/site_background.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* The Company Logo at top left of Navigation Bar */
+#navbar-logo {
+    float: left;
+    width: 150px;
+    margin-left: -15px;
+    margin-top: 2px;
+}
+
+/* User Icon Logo next to username at Navbar */
+#navbar-user {
+    width: 32px;
+    margin-top: 10px;
+}
+
+/* Navbar Text options go bold on mouse hover/focus */
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus {
+    font-weight: bold;
+}
+
+/* Employees-Department Jumbotrons */
+.container .jumbotron {
+    margin-top: 100px;
+}
+
+/* Login Page Jumbotron */
+#login_jumbotron {
+    margin-top: 250px;
+}
+
+/* Home Page Jumbotron */
+#users_jumbotron {
+    margin-top: 150px;
+}
+
+/* Error Window Jumbotron */
+#errors_jumbotron {
+    margin-top: 100px;
+}
+
+/* Applicable for every table */
+thead {
+    cursor: pointer;
+    background-color: #cccccc;
+}
+
+/* If column not sorted yet, show Up-Down arrows together */
+table.tablesorter th.tablesorter-headerUnSorted {
+    background: url('../images/bg.gif') no-repeat center right;
+    cursor: pointer;
+}
+
+/* If column has ASCENDING order, show Up arrow */
+table.tablesorter th.tablesorter-headerAsc {
+    background: url('../images/asc.gif') no-repeat center right;
+}
+
+/* If column has ASCENDING order, show Up arrow */
+table.tablesorter th.tablesorter-headerDesc {
+    background: url('../images/desc.gif') no-repeat center right;
+}
+
+/* Columns that are not sortable, should not have sort arrows */
+#employees-table .non-sortable {
+    background: none;
+}
+
+/* Columns that are not sortable, should not have sort arrows */
+#departments-table .non-sortable {
+    background: none;
+}
+
+/* Scrollbar for Employee - Department Tables */
+.tableScrollBar {
+    height: 450px !important;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* Scrollbar Condigured for the Errors Modal*/
+.errorScrollBar {
+    height: 650px !important;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* Update-Add Record Modal Headers */
+.modal-dialog .modal-content .modal-header {
+    background-color: #2A6496;
+    color: white;
+}
+
+/* Modal for error messages */
+.errorModal {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Error Modal Positioning */
+.errorModal .modal-dialog {
+    width: 35%;
+    height: 30%;
+}
+
+/* Error Modal Header Colors*/
+.errorModal .modal-dialog .modal-content .modal-header {
+    background-color: #B22222;
+    color: white;
+}
+
+/* Error Modal Paragraph Styling */
+.errorMessageParagraph {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Error Modal Hyperlink Styling */
+.errorHyperlinkParagraph {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Input Field Border Width */
+.form-control {
+    border-width: 2px;
+}
+
+/* Required Fields to complete the form */
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+/* Display Error Messages after Validating the form */
+.error-messages {
+    color: red;
+    font-weight: bold;
+}
+
+/* Glyphicons Styling */
+.input-group-addon {
+    background-color: #2A6496;
+    border-color: #2A6496;
+    color: white;
+}

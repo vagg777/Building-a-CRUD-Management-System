@@ -1,0 +1,19 @@
+<plugin name='javascript-validator' version='0.9' grailsVersion='1.1 &gt; *'>
+  <author>Peter Delahunty</author>
+  <authorEmail>peter.delahunty@gmail.com</authorEmail>
+  <title>Client Side Javascript Validator</title>
+  <description>\
+This plugin provides client side javascript validation for domain and command objects based on the constraints closure.
+</description>
+  <documentation>http://grails.org/JavascriptValidator+Plugin</documentation>
+  <resources>
+    <resource>UrlMappings</resource>
+    <resource>com.delahuntyware.BookController</resource>
+    <resource>DemoController</resource>
+    <resource>com.delahuntyware.Book</resource>
+    <resource>Demo</resource>
+    <resource>User</resource>
+    <resource>JavascriptValidatorTagLib</resource>
+  </resources>
+  <dependencies />
+</plugin>
