@@ -7,9 +7,9 @@
 
 ## 1. What is this repository for? ##
 
-* This is the final verison of an Employee-Department Create-Read-Update-Delete (CRUD), developed using the Groovy Language.
+* This is the final verison of an Employee-Department Create-Read-Update-Delete (CRUD), developed using the `Groovy` programming language.
 * The application is dedicated in Creating/Updating/Reading/Deleting entries of both departments and employees. 
-* The applicatio was developed on Grails, using InteliJ as IDE, Groovy as programming language and a MySQL as RDBMS.
+* The applicatio was developed on `Grails`, using `InteliJ IDEA` as IDE, `Groovy` as programming language and a `MySQL`  db as RDBMS.
 * This is the final version ofor the Employee-Department CRUD Panels and User Login/Logout features.
 * Project Version : `3.0`
 * IDE Version : `InteliJ IDEA 2017.1.1`
